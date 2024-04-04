@@ -21,6 +21,8 @@ body {
     flex: 1;
     text-align: center;
     padding: 10px;
+    border:10px solid black;
+
 }
 
 .menu-item:nth-child(1) {
@@ -56,16 +58,19 @@ body {
 
 .left-column {
     background-color: teal;
+    border:10px solid black;
 }
 
 .right-column {
     background-color: pink;
+    border:10px solid black;
 }
 
 .right-column-item {
     flex: 1;
     text-align: center;
     padding: 10px;
+    border:10px solid black;
 }
 
 /* Different background colors for right column items */
@@ -81,14 +86,16 @@ body {
 
 /* Footer */
 .footer {
-    background-color: lightcoral;
-    gap: 15px;
+    background-color: black;
+    gap: 1px;
 }
 
 .footer-column {
     flex: 1;
     text-align: center;
     padding: 10px;
+    border:10px solid black;
+
 }
 
 .footer-column:nth-child(1) {
